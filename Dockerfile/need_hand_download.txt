@@ -1,0 +1,6 @@
+cuda-core-9-0_9.0.176-1_amd64.deb
+cuda-cublas-9-0_9.0.176-1_amd64.deb
+cuda-cufft-9-0_9.0.176-1_amd64.deb
+cuda-curand-9-0_9.0.176-1_amd64.deb
+cuda-cusolver-9-0_9.0.176-1_amd64.deb
+cuda-cusparse-9-0_9.0.176-1_amd64.deb
