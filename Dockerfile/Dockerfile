@@ -11,7 +11,7 @@ RUN apt -y --allow-unauthenticated  remove nvidia-*
 COPY sources.list /etc/apt/
 
 RUN apt-get clean && apt-get update 
-RUN apt-get install -y apt-transport-https && apt-get install vim
+RUN apt-get install -y apt-transport-https && apt-get install vim --assume-yes
 
 RUN rm /etc/apt/sources.list
 COPY aliyun.sources.list /etc/apt/sources.list
