@@ -14,3 +14,7 @@ https://unix.stackexchange.com/questions/263801/apt-get-fails-the-method-driver-
 ### 3. 出core了, 如何调试？ 
 - 可以安装python版gdb sudo apt-get install gdb python-dbg, 安装完毕后执行gdb python 然后运行 run train.py --run_mode=local --config=config.train.json
 运行一会后出core，输出命令 core-file core.xxx(xxx是你刚才出的core的编码), 输入bt回车,查看栈信息。[ref](https://github.com/alibaba/x-deeplearning/issues/59#issuecomment-454681359)
+
+### 4. 线上线下打分对齐问题？ 
+- [issues/313](https://github.com/alibaba/x-deeplearning/issues/313)
+- [issues/299](https://github.com/alibaba/x-deeplearning/issues/299)
